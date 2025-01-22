@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính Thuế Thu Nhập Cá Nhân</title>
+    <link rel="stylesheet" href="stylesheet/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tính Thuế Thu Nhập Cá Nhân</h1>
+        <form>
+            <div class="form-group">
+                <label for="salary">Lương Gross:</label>
+                <input type="text" id="salary" oninput="formatSalaryInput(event)">
+            </div>
+            <div class="form-group">
+                <label for="region">Khu vực:</label>
+                <select id="region">
+                    <option value="1">Vùng 1</option>
+                    <option value="2">Vùng 2</option>
+                    <option value="3">Vùng 3</option>
+                    <option value="4">Vùng 4</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="dependents">Số người phụ thuộc:</label>
+                <input type="number" id="dependents" value="0">
+            </div>
+            <div class="form-group">
+                <button type="button" onclick="calculateTax()">Tính Toán</button>
+            </div>
+        </form>
+        <table id="result">
+            <thead>
+                <tr><th>Thông tin</th><th>Giá trị</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Lương Gross</td><td id="grossSalary"></td></tr>
+                <tr><td>Bảo hiểm xã hội (8%)</td><td id="insuranceSocial"></td></tr>
+                <tr><td>Bảo hiểm y tế (1.5%)</td><td id="insuranceHealth"></td></tr>
+                <tr><td>Bảo hiểm thất nghiệp (1%)</td><td id="insuranceUnemployment"></td></tr>
+                <tr><td>Thu nhập trước thuế</td><td id="beforeTax"></td></tr>
+                <tr><td>Giảm trừ gia cảnh bản thân</td><td id="personalDeduction"></td></tr>
+                <tr><td>Giảm trừ gia cảnh người phụ thuộc</td><td id="dependentDeduction"></td></tr>
+                <tr><td>Thu nhập chịu thuế</td><td id="taxableIncome"></td></tr>
+                <tr><td>Thuế thu nhập cá nhân(*)</td><td id="tax"></td></tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
