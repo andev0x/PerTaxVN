@@ -3,6 +3,13 @@
 ## Overview
 PerTaxVN is a project aimed at simplifying personal tax calculations in Vietnam. This tool helps users to easily compute their tax liabilities based on their income and other relevant factors.
 
+###### Vietnamese
+- Áp dụng mức lương cơ sở mới nhất có hiệu lực từ ngày 01/07/2024 (Theo [Nghị định số 73/2024/NĐ-CP](https://vanban.chinhphu.vn/?pageid=27160&docid=210537))
+
+- Áp dụng mức lương tối thiểu vùng mới nhất có hiệu lực từ ngày 01/07/2024 (Theo [Nghị định 74/2024/NĐ-CP](https://vanban.chinhphu.vn/?pageid=27160&docid=210536))
+
+- Áp dụng mức giảm trừ gia cảnh mới nhất 11 triệu đồng/tháng (132 triệu đồng/năm) với người nộp thuế và 4,4 triệu đồng/tháng với mỗi người phụ thuộc (Theo [Nghị Quyết số 954/2020/UBTVQH14](https://thuvienphapluat.vn/van-ban/Thue-Phi-Le-Phi/Nghi-quyet-954-2020-UBTVQH14-dieu-chinh-muc-giam-tru-gia-canh-cua-thue-thu-nhap-ca-nhan-444106.aspx))
+
 ## Features
 - User-friendly interface
 - Accurate tax calculations
