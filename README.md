@@ -22,7 +22,7 @@ To install and run the project locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/anvng/PerTaxVN.git
+    git clone https://github.com/andev0x/PerTaxVN.git
     ```
 2. Navigate to the project directory:
     ```bash
@@ -32,7 +32,7 @@ To install and run the project locally, follow these steps:
     Run with "Go Live" extension [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 ## Usage
-[Link Here ➡️](https://anvng.github.io/PerTaxVN/)
+[Link Here ➡️](https://andev0x.github.io/PerTaxVN/)
 
 ## Contributing
 We welcome contributions to improve PerTaxVN. Please follow these steps to contribute:
